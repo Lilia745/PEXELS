@@ -16,7 +16,7 @@ function Home({ images, loader, setSaved, saved }) {
         }
          if (flag) {
             setSaved([...saved, img])
-            alert('Image saved')
+            Swal.fire('Image saved')
         }
     }
     return (
